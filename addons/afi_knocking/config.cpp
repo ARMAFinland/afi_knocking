@@ -9,7 +9,7 @@ class CfgPatches {
 class CfgFunctions {
 	class BRIDGE_KN_FN {
 		class functions {
-			file = "\bridge_knocking\functions";
+			file = "\afi_knocking\functions";
 			class init {
 				postInit = 1;
 			};
@@ -28,7 +28,7 @@ class CfgVehicles {
 					showDisabled = 0;
 					priority = 1;
 					distance = 4.5;
-					icon = "\bridge_knocking\ui\knock.paa";
+					icon = "\afi_knocking\ui\knock.paa";
 				};
 			};
 		};
@@ -43,7 +43,7 @@ class CfgVehicles {
 					showDisabled = 0;
 					priority = 1;
 					distance = 4.5;
-					icon = "\bridge_knocking\ui\knock.paa";
+					icon = "\afi_knocking\ui\knock.paa";
 				};
 			};
 		};
@@ -58,7 +58,7 @@ class CfgVehicles {
 					showDisabled = 0;
 					priority = 1;
 					distance = 4.5;
-					icon = "\bridge_knocking\ui\knock.paa";
+					icon = "\afi_knocking\ui\knock.paa";
 				};
 			};
 		};
@@ -73,7 +73,7 @@ class CfgVehicles {
 					showDisabled = 0;
 					priority = 1;
 					distance = 4.5;
-					icon = "\bridge_knocking\ui\knock.paa";
+					icon = "\afi_knocking\ui\knock.paa";
 				};
 			};
 		};
@@ -83,12 +83,12 @@ class CfgSounds {
 	sounds[] = {"bridge_kn_knockMetal"};
 	class bridge_kn_knockMetal {
 		name = "bridge_kn_knockMetal";
-		sound[] = {"\bridge_knocking\sounds\knockMetal.ogg",3,1};
+		sound[] = {"\afi_knocking\sounds\knockMetal.ogg",15,1,25};
 		titles[] = {};
 	};
 	class bridge_kn_knockMetalInside {
 		name = "bridge_kn_knockMetalInside";
-		sound[] = {"\bridge_knocking\sounds\knockMetal.ogg",5,1};
+		sound[] = {"\afi_knocking\sounds\knockMetal.ogg",5,1};
 		titles[] = {};
 	};
 };
