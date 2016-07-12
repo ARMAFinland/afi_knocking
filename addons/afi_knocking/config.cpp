@@ -83,7 +83,7 @@ class CfgSounds {
 	sounds[] = {"bridge_kn_knockMetal"};
 	class bridge_kn_knockMetal {
 		name = "bridge_kn_knockMetal";
-		sound[] = {"\afi_knocking\sounds\knockMetal.ogg",15,1,25};
+		sound[] = {"\afi_knocking\sounds\knockMetal.ogg",50,1,25};
 		titles[] = {};
 	};
 	class bridge_kn_knockMetalInside {
