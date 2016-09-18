@@ -1,5 +1,5 @@
 class CfgPatches {
-	class BRIDGE_ArmEn_Knocking {
+	class afi_knocking {
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = 0.1;
@@ -83,12 +83,12 @@ class CfgSounds {
 	sounds[] = {"bridge_kn_knockMetal"};
 	class bridge_kn_knockMetal {
 		name = "bridge_kn_knockMetal";
-		sound[] = {"\afi_knocking\sounds\knockMetal.ogg",50,1,25};
+		sound[] = {"\afi_knocking\sounds\knockMetal.ogg",25,1,25};
 		titles[] = {};
 	};
 	class bridge_kn_knockMetalInside {
 		name = "bridge_kn_knockMetalInside";
-		sound[] = {"\afi_knocking\sounds\knockMetal.ogg",5,1};
+		sound[] = {"\afi_knocking\sounds\knockMetal.ogg",2,1};
 		titles[] = {};
 	};
 };
